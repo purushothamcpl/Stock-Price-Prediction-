@@ -19,7 +19,7 @@ st.write("Upload your historical stock data and generate future predictions usin
 # Load Model & Scaler (Cached)
 @st.cache_resource
 def load_lstm_components():
-    model = load_model("models/lstm_model.keras", compile=False)
+    model = load_model("lstm_model.keras", compile=False)
     scaler = joblib.load("forecastlstm.pkl")
     return model, scaler
 
