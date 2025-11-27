@@ -2,3 +2,11 @@ streamlit
 numpy
 scikit-learn
 joblib
+streamlit
+pandas
+numpy
+tensorflow
+matplotlib
+joblib
+scikit-learn
+openpyxl
